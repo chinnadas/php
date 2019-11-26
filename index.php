@@ -1,6 +1,8 @@
 <?php
 require 'vendor/autoload.php';
+
 use Carbon\Carbon;
  
 $date = Carbon::now();
-echo $date->toDayDateTimeString();
+
+echo "Current Date and Time: ".$date->toDayDateTimeString();
